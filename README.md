@@ -25,21 +25,31 @@ To run the application, execute the `Main` class. The application will calculate
 The output of the application is a detailed invoice for each rental, including the customer name, rented vehicle, reservation start and end dates, actual return date, rental and insurance costs per day, and total costs.
 
 XXXXXXXXXXX
+
 Date: 2024-06-15
+
 Customer Name: John Doe
+
 Rented Vehicle: Porsche 992
 
 Reservation start date: 2024-06-15
+
 Reservation end date: 2024-06-22
+
 Reserved rental days: 7 days
 
 Actual return date: 2024-06-20
+
 Actual rental days: 5 days
 
 Rental cost per day: 20.00
+
 Insurance cost per day: 27.00
 
 Total rent: 120.00
+
 Total Insurance: 135.00
+
 Total: 255.00
+
 XXXXXXXXXXX
