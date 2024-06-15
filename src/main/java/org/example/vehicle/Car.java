@@ -14,10 +14,6 @@ public class Car extends Vehicle{
         return safetyRating;
     }
 
-    public void setSafetyRating(int safetyRating) {
-        this.safetyRating = safetyRating;
-    }
-
     public VehicleType getType() {
         return type;
     }

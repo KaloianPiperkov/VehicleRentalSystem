@@ -11,12 +11,11 @@ import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        // Create instances of Vehicle subclasses
+
         Car car = new Car("Porsche", "992", 300000, 7, VehicleType.CAR);
         Motorcycle motorcycle = new Motorcycle("Honda", "CBR600RR", 12000, 24, VehicleType.MOTORCYCLE);
         CargoVan cargoVan = new CargoVan("Ford", "Transit", 30000, 6, VehicleType.CARGOVAN);
 
-        // Create instances of Rental
         Rental carRental = new Rental(car, 7, "John Doe", LocalDate.now());
         carRental.returnVehicle(LocalDate.now().plusDays(5));  // returned early
 

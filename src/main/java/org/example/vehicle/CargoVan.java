@@ -14,10 +14,6 @@ public class CargoVan extends Vehicle {
         return driverExperience;
     }
 
-    public void setDriverExperience(int driverExperience) {
-        this.driverExperience = driverExperience;
-    }
-
     public VehicleType getType() {
         return type;
     }

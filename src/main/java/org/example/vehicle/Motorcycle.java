@@ -14,10 +14,6 @@ public class Motorcycle extends Vehicle {
         return riderAge;
     }
 
-    public void setRiderAge(int riderAge) {
-        this.riderAge = riderAge;
-    }
-
     public VehicleType getType() {
         return type;
     }
